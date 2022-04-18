@@ -1,3 +1,41 @@
-body {
-    background: blue;
-  }
+body {background-color: #EBEBEB;
+    font-size: 1em;
+    color: #221811; 
+    font-family: Tahoma, Ariel, sans-serif;}
+
+header { background-color: #666666; 
+		color: #CCCCCC;
+		background-repeat: no-repeat;
+		background-size: 20% 100%}
+		 
+
+h1 { font-size: 2em;
+     text-align: center;
+     height: 50px; }
+
+h2 { color: #666666;
+    text-align: center;}
+
+h2 + p { 
+    text-align: center;
+}
+
+.skillsList{
+    text-align: center;
+    list-style-position: inside;
+}
+
+nav {background-color: #AA1111;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration: none; 
+    padding: 0;}
+    
+nav ul {list-style-type: none;
+    padding: 0 }
+    
+nav a:link { color: #FFFFFF; }
+nav a:visited { color: #FFFFFF; }
+nav a:hover { color: #CCCCCC; }
+nav a { text-decoration: none; }
