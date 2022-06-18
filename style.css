@@ -1,17 +1,31 @@
-body {background-color: #EBEBEB;
+body {
+    background-color: #c8d8e4;
+    text-align: center;
     font-size: 1em;
     color: #221811; 
     font-family: Tahoma, Ariel, sans-serif;}
 
-header { background-color: #666666; 
+.topStyle { 
+        background-color: #666666; 
 		color: #CCCCCC;
 		background-repeat: no-repeat;
-		background-size: 20% 100%}
+		background-size: 20% 100%;
+    }
 		 
+.myPic {
+    transition: ease 1000ms;
+    width: 300px;
+    border-radius: 50%;
+    border: #52ab98 solid 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 h1 { font-size: 2em;
-     text-align: center;
-     height: 50px; }
+     text-align: left;
+     margin-left: 1em;
+     padding-top: 2em;
+    }
 
 h2 { color: #666666;
     text-align: center;}
@@ -23,14 +37,17 @@ h2 + p {
 .skillsList{
     text-align: center;
     list-style-position: inside;
+    list-style-type: none;
 }
 
-nav {background-color: #AA1111;
+nav {
     font-weight: bold;
-    text-align: center;
+    text-align: right;
     font-size: 1.5em;
     text-decoration: none; 
-    padding: 0;}
+    margin-right: 2em;
+    padding-bottom: 2em;
+}
     
 nav ul {list-style-type: none;
     padding: 0 }
@@ -39,3 +56,23 @@ nav a:link { color: #FFFFFF; }
 nav a:visited { color: #FFFFFF; }
 nav a:hover { color: #CCCCCC; }
 nav a { text-decoration: none; }
+
+.Sicons li{
+    font-size: 2.5em;
+    margin:auto;
+    width: 70%;
+    text-align: center;
+    list-style: none;
+    display: inline;
+    padding: 0 20px;
+}
+.Sicons  a{
+    color:#2b6777;
+} 
+.Sicons li a:hover{
+    color: #52ab98;
+    transition: 100ms all ease-in;
+}
+footer { background-color: #f2f2f2;
+    color: #666666; 
+    text-align: center; }
