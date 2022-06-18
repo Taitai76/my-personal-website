@@ -6,10 +6,10 @@ body {
     font-family: Tahoma, Ariel, sans-serif;}
 
 .topStyle { 
-        background-color: #666666; 
-		color: #CCCCCC;
+        background-color: #ffffff; 
+		color: #666666;
 		background-repeat: no-repeat;
-		background-size: 20% 100%;
+		
     }
 		 
 .myPic {
@@ -23,8 +23,7 @@ body {
 
 h1 { font-size: 2em;
      text-align: left;
-     margin-left: 1em;
-     padding-top: 2em;
+    
     }
 
 h2 { color: #666666;
@@ -44,18 +43,28 @@ nav {
     font-weight: bold;
     text-align: right;
     font-size: 1.5em;
-    text-decoration: none; 
-    margin-right: 2em;
-    padding-bottom: 2em;
+    text-decoration: none;
+    margin-bottom: 0; 
 }
     
 nav ul {list-style-type: none;
-    padding: 0 }
+    padding: 0 
+}
     
-nav a:link { color: #FFFFFF; }
-nav a:visited { color: #FFFFFF; }
+nav a:link { color: #666666; }
+nav a:visited { color: #666666; }
 nav a:hover { color: #CCCCCC; }
 nav a { text-decoration: none; }
+
+nav li{
+    font-size: 1.5em;
+    margin:auto;
+    width: 70%;
+    text-align: center;
+    list-style: none;
+    display: inline;
+    padding: 0 20px;
+}
 
 .Sicons li{
     font-size: 2.5em;
